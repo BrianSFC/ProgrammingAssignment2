@@ -1,9 +1,9 @@
 ## This set of functions creates a matrix object whose inverse can be cached,
 ## saving computation time in cases where the inverse has already been calculated.
 
-## creates a special matrix object whose inverse can be cached (set and
-## retrieved). In addition, the matrix can be reset with new data using the
-## set(y) sub-function.
+## makeCacheMatrix creates a special matrix object whose inverse can be cached
+## (set and retrieved). In addition, the matrix can be reset with new data using
+## the set(y) sub-function.
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
